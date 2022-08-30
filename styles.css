@@ -10,7 +10,7 @@ html{
     font-family: sans-serif;
 }
 
-.test{
+.main{
     height: 100vh;
     background-color: #1F2937;
     display: flex;
@@ -84,7 +84,43 @@ html{
 
 .media .image{
     height: 300px;
-    width: 650px;
+    width: 600px;
     background-color: grey;
+}
 
+/* ----------Random Info----------  */
+
+.randomInfo{
+    height: 430px;
+    width: auto;
+    border: 3px solid #3882f6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-evenly;p */
+    padding: 60px;
+    gap: 50px;
+}
+
+.card{
+    display: flex;
+}
+
+.card .cards{
+    height: 200px;
+    width: 200px;
+    background-color: #E5E7EB;
+    margin: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.card .cards img{
+    border-radius: 10px;
+}
+
+.infoheader{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
 }
