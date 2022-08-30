@@ -93,7 +93,7 @@ html{
 .randomInfo{
     height: 430px;
     width: auto;
-    border: 3px solid #3882f6;
+    /* border: 3px solid #3882f6; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -123,4 +123,37 @@ html{
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+}
+
+    /*------------Quote---------- */
+
+.quoteSection{
+    width: auto;
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+}
+
+.quote{
+    width: 734px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote p{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+
+.quoteSection .quote span{
+    color: #1F2937;
+    text-align: end;
+    width: 734px;
+    font-size: 24px;
+    font-weight: 900;
 }
